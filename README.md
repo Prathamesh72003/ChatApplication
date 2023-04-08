@@ -1,5 +1,5 @@
-# ChatEase Chatting Android App
-Welcome to the User ChatEase! This app is designed to help users easily connect and chat with other users from around the world. With a user-friendly interface and a range of features, this app makes it easy for you to start chatting with others in no time.
+# ChatEase Chatting Android Application
+Welcome to ChatEase! This app is designed to help users easily connect and chat with other users from around the world. With a user-friendly interface and a range of features, this app makes it easy for you to start chatting with others in no time.
 
 <p align="center">
 <img src="chat1.jpeg" alt="Logo" width="190" height="350">
@@ -26,12 +26,49 @@ Welcome to the User ChatEase! This app is designed to help users easily connect 
 </p>
 
 ## Getting Started
-To get started with the NewsPilot app, follow these steps:
+To run this app, follow the steps below:
 <ol>
-<li>Clone the repository to your local machine.</li>
-<li>Open the project in Android Studio.</li>
-<li>Build and run the app on your Android device or emulator.</li>
+<li>Clone the repository, open cmd in the desired folder and type:</li>
+
+```
+git clone https://github.com/SheRights/SheRights-Application.git
+```
+
+<li>Navigate to the project's root directory.</li>
+<li>Install the project dependencies using:</li>
+
+```
+npm install
+```
+
 </ol>
+
+## Configuration
+ChatEase uses Firebase for authentication and database. To use Firebase in the app, you will need to create a new Firebase project and add the configuration details to the project. Here's how:
+<ol>
+<li>Create a new Firebase project on the Firebase Console.</li>
+<li>Navigate to the project's settings and click on the "Add Firebase to your app" button.</li>
+<li>Copy the Firebase configuration object.</li>
+<li>Download Google-Services file and place it in your project.</li>
+</ol>
+
+## Running the Application
+To run the application on your device or emulator, run the following command:
+<ol>
+<li>Open command prompt in your root directory and run:</li>
+
+```
+npx react-native start
+```
+
+<li>Open command prompt in your root directory and run:</li>
+
+```
+npx react-native run-android
+```
+
+</ol>
+This will start the React server and open the React Developer Tools in your prompt. From here, you can choose to run the app on a physical device, emulator and start the test runner and run all the tests for the application.
 
 ## Usage
 <ol>
